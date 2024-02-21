@@ -1,3 +1,7 @@
+
+<p align="center">
+    <img src="git-imgs/single_drug_img.png" width="900" style="margin-bottom: 0.2;"/>
+<p>
 <h2 align="center"> <a href="">Deep peak property learning for efficient chiral molecules ECD spectra prediction</a></h2>
 <h5 align="center"> The official code for "Deep peak property learning for efficient chiral molecules ECD spectra prediction" submitted to Nature Machine Intelligence. Here we publish the inference code of ECDFormer. The training code & ECD spectra dataset will be released after our paper is accepted. If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
@@ -28,12 +32,10 @@ pip install -r requirements.txt
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
 
 ```BibTeX
-@misc{li2023freestyleret,
-      title={FreestyleRet: Retrieving Images from Style-Diversified Queries}, 
-      author={Hao Li and Curise Jia and Peng Jin and Zesen Cheng and Kehan Li and Jialu Sui and Chang Liu and Li Yuan},
-      year={2023},
-      eprint={2312.02428},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{li2024deep,
+  title={Deep peak property learning for efficient chiral molecules ECD spectra prediction},
+  author={Li, Hao and Long, Da and Yuan, Li and Tian, Yonghong and Wang, Xinchang and Mo, Fanyang},
+  journal={arXiv preprint arXiv:2401.03403},
+  year={2024}
 }
 ```
