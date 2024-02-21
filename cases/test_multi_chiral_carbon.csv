@@ -1,0 +1,33 @@
+﻿k,NAME,Smiles
+1,R-(+)-nimodipine,[H][C@@]1(C2=CC([N+](=O)[O-])=CC=C2)C(C(=O)OCCOC)=C(C)NC(C)=C1C(=O)OC(C)C
+2,S-(-)-nimodipine,[H][C@@]1(C2=CC([N+](=O)[O-])=CC=C2)C(C(=O)OCC)=C(C)NC(C)=C1C(=O)OCCOC
+3,R(+)-Amlodipine heritartrate,[H][C@@]1(C2=C(Cl)C=CC=C2)C(C(=O)OC)=C(C)NC(COCCN)=C1C(=O)OCC
+4,S.(-)-Amlodipine hemitartrate,[H][C@]1(C2=C(Cl)C=CC=C2)C(C(=O)OC)=C(C)NC(COCCN)=C1C(=O)OCC
+5,Artemisinin,[H][C@]12OC(=O)[C@H](C)[C@]3(C)CC[C@@H](C)[C@]4([H])CC[C@](C)(OO[C@]143)O2
+6,Dihydromyricetin,O=C1C2=C(O)C=C(O)C=C2O[C@@H](C2=CC(O)=C(O)C(O)=C2)[C@@H]1O
+7,Finasteride,[H]N(C(=O)[C@H]1CCC2C3CC[C@@]4([H])N([H])C(=O)C=C[C@]4(C)C3CC[C@@]21C)C(C)(C)C
+8,Linezolid_1,FC(C=C(N1C[C@H](CNC(C)=O)OC1=O)C=C2)=C2N3CCOCC3
+9,Linezolid_2,FC(C=C(N1C(O[C@@H](CNC(C)=O)C1)=O)C=C2)=C2N3CCOCC3
+10,Lobechinenoid_1,OC1=CC=C([C@H]2OC(C(OC)=CC(CC[C@H]3C4=C(C=C(O)C(OC)=C4)CCN3)=C5)=C5[C@@H]2CO)C=C1OC
+11,Lobechinenoid_2,OC1=CC=C([C@@H]2OC(C(OC)=CC(CC[C@@H]3C4=C(C=C(O)C(OC)=C4)CCN3)=C5)=C5[C@H]2CO)C=C1OC
+12,Lobechinenoid_3,OC1=CC=C([C@@H]2OC(C(OC)=CC(CC[C@H]3C4=C(C=C(O)C(OC)=C4)CCN3)=C5)=C5[C@H]2CO)C=C1OC
+13,Lobechinenoid_4,OC1=CC=C([C@H]2OC(C(OC)=CC(CC[C@@H]3C4=C(C=C(O)C(OC)=C4)CCN3)=C5)=C5[C@@H]2CO)C=C1OC
+14,ent-clavilactone J(1),C[C@@]12CC3=C(O)C=CC(O)=C3C3OC(=O)[C@@]4(CC[C@@H]1O2)O[C@@H]34
+15,ent-clavilactone J quinone (2),C[C@@]12CC3=C(C(=O)C=CC3=O)[C@@H]3OC(=O)[C@@]4(CC[C@@H]1O2)O[C@@H]34
+16,PRO_1,C[C@@]12[C@](CC(C(CO)=C2)=O)([H])[C@](C)(C(O)=O)CC[C@@H]1O
+17,PRO_2,C[C@@]12[C@](CC(C3=COC=C23)=O)([H])[C@](C)(C(O)=O)CCC1
+18,PRO_3,C[C@@]12[C@](CC=C(CO)C2C=O)([H])[C@](C)(C(O)=O)CCC1
+19,PRO_4,C[C@@]12[C@](CC=C(C(O)=O)[C@@H]2C(OC)=O)([H])[C@](C)(C(O)=O)CCC1
+20,PRO_5,C[C@@]12[C@](CC(C(CO3)=C2C3=O)=O)([H])[C@](C)(C(O)=O)CCC1
+21,Colquhounoid(1),[H]C1C[C@H](OC(C)=O)[C@]2([H])[C@@H](C)C3=C(C(=O)[C@]12[H])[C@@](N)(CC[C@]1([H])OC(=O)C=C1C)O[C@]31CC[C@H](CC)O1
+22,Akunolides(1),[H][C@@]1(O[C@@]2([H])C[C@@]3([H])C[C@H](O)C[C@H](C)C[C@@H](O)C(C)(C)[C@@H](/C=C/C=C/CCCC#C)OC(=O)C[C@]([H])(O3)C2(C)C)OC[C@@H](OC)C(OC)[C@H]1O
+23,Akunolides(2),[H][C@@]1(O[C@@]2([H])C[C@@]3([H])C[C@H](O)C[C@H](C)C[C@@H](O)C(C)(C)[C@@H](/C=C/C=C/CCCC=C)OC(=O)C[C@]([H])(O3)C2(C)C)OC[C@@H](OC)C(OC)[C@H]1O
+24,Akunolides(3),[H][C@@]1(O[C@@]2([H])C[C@@]3([H])C[C@H](O)C[C@H](C)C[C@@H](O)C(C)(C)[C@@H](/C=C/C=C/CCCC=C)OC(=O)C[C@]([H])(O3)C2(C)C)OC[C@@H](OC)C(O)[C@H]1O
+25,Akunolides(4),[H][C@@]1(O[C@@]2([H])C[C@@]3([H])C[C@H](O)C[C@H](C)C[C@@H](O)C(C)(C)[C@@H](/C=C/C=C/CCCCC)OC(=O)C[C@]([H])(O3)C2(C)C)OC[C@@H](OC)C(O)[C@H]1O
+26,Com_1,C[C@@H]1C=CC(=O)C2=CC(C(=O)O)=CC(O)=C21
+27,com_2(13a),[H]C1=C(C(=O)O)C=C2C(=C1O)[C@H](C)CC([H])[C@@]2([H])[C@@]([H])(C)CC/C=C(/C)CC
+28,com_3(13b),[H]C1=C(C(=O)O)C=C2C(=C1O)[C@H](C)CC([H])[C@@]2([H])[C@@]([H])(C)CC/C=C(\C)CC
+29,com_4(14),[H]C1=C(C(=O)O)C=C2C(=C1O)[C@H](C)CC([H])[C@@]2([H])[C@@]([H])(C)CCCC(C)CO
+30,com_5(19h),[H][C@@]12CC[C@@H](C)C3=C(O)C=C(C(=O)O)C(=C31)[C@H](C=C(C)C)C[C@@H]2C
+31,com_6(20),[H]C1=C(C(=O)O)C=C2C(=C1O)[C@H](C)CC([H])[C@@]2([H])[C@@]([H])(C)CCCC(C)C
+32,miktospiromide A,CCCCCCC/C=C/C1=CC(=O)[C@]2(O1)C(=O)N[C@@](C)(O)[C@H]2O
