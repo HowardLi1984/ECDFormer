@@ -15,7 +15,10 @@
 </h5>
 
 ## Data Preparation
-Please put the 
+Please download and put the [descriptor_all_column.npy](https://arxiv.org/abs/2401.03403) into the folder utils/
+```bash
+utils/descriptor_all_column.npy
+```
 
 ## 🛠️ Requirements and Installation
 * Python == 3.8
