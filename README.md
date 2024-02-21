@@ -1,6 +1,14 @@
-# ECDFormer
-The official code for "Deep peak property learning for efficient chiral molecules ECD spectra prediction" submitted to Nature Machine Intelligence. Here we publish the inference code of ECDFormer. The training code & ECD spectra dataset will be released after our paper is accepted
+<h2 align="center"> <a href="">Deep peak property learning for efficient chiral molecules ECD spectra prediction</a></h2>
+<h5 align="center"> The official code for "Deep peak property learning for efficient chiral molecules ECD spectra prediction" submitted to Nature Machine Intelligence. Here we publish the inference code of ECDFormer. The training code & ECD spectra dataset will be released after our paper is accepted. If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
+
+<h5 align="center">
+    
+[![arXiv](https://img.shields.io/badge/Arxiv-2310.01852-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.03403)
+[![License](https://img.shields.io/badge/Code%20License-MIT-yellow)](https://github.com/YanhaoJia/FreeStyleRet/blob/main/LICENSE)
+[![Data License](https://img.shields.io/badge/Dataset%20license-CC--BY--NC%204.0-orange)](https://github.com/YanhaoJia/FreeStyleRet/blob/main/DATASET_LICENSE) <br>
+
+</h5>
 
 ## Data Preparation
 Please put the 
