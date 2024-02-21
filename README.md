@@ -15,10 +15,11 @@
 </h5>
 
 ## Data Preparation
-Please download and put the [descriptor_all_column.npy](https://arxiv.org/abs/2401.03403) into the folder utils/
+For training and inference, please download and put the [descriptor_all_column.npy](https://drive.google.com/file/d/1MHRkm4Jp4SBafwSFXyxsh1H2UdE2cEDc/view?usp=sharing) into the folder utils/
 ```bash
 utils/descriptor_all_column.npy
 ```
+We will release the CMCDS dataset for training procedure once our paper is accepted.
 
 ## 🛠️ Requirements and Installation
 * Python == 3.8
