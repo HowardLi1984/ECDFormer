@@ -25,6 +25,7 @@ We will release the CMCDS dataset for training procedure once our paper is accep
 * Python == 3.8
 * Pytorch == 1.13.1
 * CUDA Version == 11.7
+* torch_geometric, troch-scatter, torch-sparse, torch-cluster, torch-spline-conv
 * Install required packages:
 ```bash
 git clone git@github.com:HowardLi1984/ECDFormer.git
