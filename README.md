@@ -52,11 +52,11 @@ CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch
 ```
 
 ## 🚀 Main Results
-Quantitively, we propose the experimental results on our ECDFormer framework and the corresponding baselines including machine learning models and deep learning models. Focusing on peak property prediction, our ECDFormer model surpasses baselines under all evaluation metrics.
+**Quantitively**, we propose the experimental results on our ECDFormer framework and the corresponding baselines including machine learning models and deep learning models. Focusing on peak property prediction, our ECDFormer model surpasses baselines under all evaluation metrics.
 <p align="center">
     <img src="git-imgs/exp_table.png" width="800" style="margin-bottom: 0.2;"/>
 <p>
-
+ECD spectra predictions on natural products with pharmaceutical effects from recent journals demonstrate the effectiveness and generalization ability of our ECDFormer.
 <p align="center">
     <img src="git-imgs/single_drug_img.png" width="800" style="margin-bottom: 0.2;"/>
 <p>
