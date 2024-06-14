@@ -51,18 +51,23 @@ The inferencing instruction is in [main_func_pos.py](main_func_pos.py).
 CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Real --visual_epoch 400
 ```
 
+## 🚀 Main Results
+Quantitively, we propose the experimental results on our ECDFormer framework and the corresponding baselines including machine learning models and deep learning models. Focusing on peak property prediction, our ECDFormer model surpasses baselines under all evaluation metrics.
 <p align="center">
-    <img src="git-imgs/single_drug_img.png" width="700" style="margin-bottom: 0.2;"/>
+    <img src="git-imgs/exp_table.png" width="800" style="margin-bottom: 0.2;"/>
+<p>
+
+<p align="center">
+    <img src="git-imgs/single_drug_img.png" width="800" style="margin-bottom: 0.2;"/>
 <p>
 
 ## ✏️ Citation
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
 
 ```BibTeX
-@article{li2024deep,
-  title={Deep peak property learning for efficient chiral molecules ECD spectra prediction},
-  author={Li, Hao and Long, Da and Yuan, Li and Tian, Yonghong and Wang, Xinchang and Mo, Fanyang},
-  journal={arXiv preprint arXiv:2401.03403},
+@article{li2024decoupled,
+  title={Decoupled peak property learning for efficient and interpretable ECD spectra prediction},
+  author={Li, Hao and Long, Da and Yuan, Li and Wang, Yu and Tian, Yonghong and Wang, Xinchang and Mo, Fanyang},
   year={2024}
 }
 ```
