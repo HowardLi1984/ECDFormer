@@ -32,6 +32,18 @@ git clone git@github.com:HowardLi1984/ECDFormer.git
 cd ECDFormer
 pip install -r requirements.txt
 ```
+PS: you can follow this [link](https://blog.csdn.net/qq_51392112/article/details/130171786) for faster torch_geometric install
+```bash
+## First install these related packages
+pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+
+## Then install the torch-geometric package
+pip install torch-geometric
+
+```
 
 ## 🗝️ Inferencing
 The inferencing instruction is in [main_func_pos.py](main_func_pos.py).
