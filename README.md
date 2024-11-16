@@ -62,7 +62,7 @@ ECD spectra predictions on natural products with pharmaceutical effects from rec
 <p>
 
 ## ✏️ Citation
-If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
+If you find our paper, code, and dataset useful in your research, please consider giving a star :star: and citation :pencil:.
 
 ```BibTeX
 @article{li2024decoupled,
