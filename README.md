@@ -45,8 +45,15 @@ pip install torch-geometric
 
 ```
 
-## 🗝️ Inferencing
-The inferencing instruction is in [main_func_pos.py](main_func_pos.py).
+## 🗝️ Train and Inference
+
+The training and inferencing instruction is in [main_func_pos.py](main_func_pos.py). 
+
+For training the ECDFormer:
+```bash
+CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Train
+```
+For inference using the model's 400 epoch checkpoint:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Real --visual_epoch 400
 ```
