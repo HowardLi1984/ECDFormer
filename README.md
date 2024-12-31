@@ -96,14 +96,21 @@ To visualize the excellent spectra predictions or generate Atom-Attention-Weight
 CUDA_VISIBLE_DEVICES=6 python main_ir.py --model_name gnn_ir --batch_size 128 --emb_dim 256 --epochs 360 --lr 1e-3 --visual_epoch 320 --mode Visual
 ```
 
-## 🚀 Main Results
+## 🚀 Experimental Results
 **Quantitively**, we propose the experimental results on our ECDFormer framework and the corresponding baselines including machine learning models and deep learning models. Focusing on peak property prediction, our ECDFormer model surpasses baselines under all evaluation metrics.
 <p align="center">
     <img src="git-imgs/exp_table.png" width="800" style="margin-bottom: 0.2;"/>
 <p>
+
+## 🚀 Generalization and Interpretation
 ECD spectra predictions on natural products with pharmaceutical effects from recent journals demonstrate the effectiveness and generalization ability of our ECDFormer.
 <p align="center">
     <img src="git-imgs/single_drug_img.png" width="800" style="margin-bottom: 0.2;"/>
+<p>
+
+our ECDFormer framework exhibits commendable interpretability due to its attribute prediction for spectral peak disentanglement. To elucidate the process of how ECDFormer generates spectra, we employed the [https://github.com/pytorch/captum](**Integrated Gradients**) to delineate regions within the entire molecule that contribute most significantly to spectrum generation. We observe that chromophores within the molecules generally contribute significantly to the peaks, which is consistent with the chemical principles of ECD spectroscopy.
+<p align="center">
+    <img src="git-imgs/interpretability_short.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
 
 ## ✏️ Citation
