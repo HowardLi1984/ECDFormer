@@ -1,5 +1,23 @@
 import json
 
+def has_element_in_range(lst, lower_bound, upper_bound):
+    """
+    检查给定列表 lst 中是否存在元素在指定的区间 [lower_bound, upper_bound] 内。
+
+    参数:
+    - lst: 输入的列表
+    - lower_bound: 区间的下界
+    - upper_bound: 区间的上界
+
+    返回:
+    - 存在元素在指定区间内时返回 True, 否则返回 False
+    """
+    for element in lst:
+        if lower_bound <= element <= upper_bound:
+            return True
+    return False
+
+
 def normalize_func(src_list, norm_range=[-100, 100]):
     # lihao implecation for list normalization
     # input: src_list, normalization range

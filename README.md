@@ -32,7 +32,7 @@ ECDFormer exhibits rearkable spectra modeling capability for molecule structure 
 
 <!-- <img src="git-imgs/main.jpg"/> -->
 
-## Data Preparation
+## 🛠️ Data Preparation
 For training and inference, please download and put the [descriptor_all_column.npy](https://drive.google.com/file/d/1MHRkm4Jp4SBafwSFXyxsh1H2UdE2cEDc/view?usp=sharing) into the folder utils/
 ```bash
 utils/descriptor_all_column.npy
@@ -69,19 +69,30 @@ The training and inferencing instruction for ECD spectra is in [main_func_pos.py
 
 For training the ECDFormer:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Train
+CUDA_VISIBLE_DEVICES=${0/1/2/3} python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Train
 ```
 For inference using the model's 400 epoch checkpoint:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Test --visual_epoch 400
+CUDA_VISIBLE_DEVICES=${0/1/2/3} python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Test --visual_epoch 400
 ```
 To visualize the excellent spectra predictions or generate Atom-Attention-Weight for molecules:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Visual --visual_epoch 500
+CUDA_VISIBLE_DEVICES=${0/1/2/3} python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Visual --visual_epoch 500
 ```
-For further experiments, to predict the molecules from natural products or multi-chiralty-centric molecules, set the mode to be ``Real`` or ``multi_carbon``:
+For further experiments, to predict the molecules from natural products or multi-chiralty-centric molecules, set the mode to ``Real`` or ``multi_carbon``:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode ${your mode} --visual_epoch ${your ckpt epoch}
+CUDA_VISIBLE_DEVICES=${0/1/2/3} python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode ${your mode} --visual_epoch ${your ckpt epoch}
+```
+
+The training and inferencing instruction for IR spectra is in [main_ir.py](main_ir.py). 
+
+For training and testing on the IR spectra dataset, set mode to ``Train`` or ``Test``:
+```bash
+CUDA_VISIBLE_DEVICES=7 python main_ir.py --model_name gnn_ir --batch_size 128 --emb_dim 256 --epochs 360 --lr 1e-3 --mode ${your mode}
+```
+To visualize the excellent spectra predictions or generate Atom-Attention-Weight for molecules:
+```bash
+CUDA_VISIBLE_DEVICES=6 python main_ir.py --model_name gnn_ir --batch_size 128 --emb_dim 256 --epochs 360 --lr 1e-3 --visual_epoch 320 --mode Visual
 ```
 
 ## 🚀 Main Results
