@@ -4,16 +4,33 @@
 <p>
 <h2 align="center"> <a href="">Decoupled peak property learning for efficient and interpretable ECD spectra prediction</a></h2>
 <h4 align="center"> <a href="">Accepted by Nature Computational Science 2025</a></h4>
-<h5 align="center"> The official code for "Decoupled peak property learning for efficient and interpretable ECD spectra prediction" accepted by Nature Computational Science. Here we publish the inference code of ECDFormer. The training code & ECD spectra dataset will be released after our paper is accepted. If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
 
 <h5 align="center">
     
-[![arXiv](https://img.shields.io/badge/Arxiv-2310.01852-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2401.03403)
+[![arXiv](https://img.shields.io/badge/Arxiv-2310.01852-b31b1b.svg?logo=arXiv)](https://assets-eu.researchsquare.com/files/rs-4470356/v1_covered_b04b4a73-ba42-47cb-9a12-cb1487234cc4.pdf?c=1718087952)
 [![License](https://img.shields.io/badge/Code%20License-MIT-yellow)](https://github.com/HowardLi1984/ECDFormer/blob/main/LICENSE)
 [![Data License](https://img.shields.io/badge/Dataset%20license-CC--BY--NC%204.0-orange)](https://github.com/HowardLi1984/ECDFormer/blob/main/DATASET_LICENSE) <br>
 
 </h5>
+
+## 📰 News
+
+* **[2024.12.25]** 🔥 Our ECDFormer has been accepted by Nature Computational Science!
+* **[2023.12.21]** 🤝 We have released the ECD spectra prediction codes for natural product and multi-chiralty-center molecules
+
+## 😮 Highlights
+
+ECDFormer exhibits rearkable spectra modeling capability for molecule structure and IR, ECD, Mass spectra.
+
+### 💡 High performance and Well Generalization for multiple spectra modeling and prediction
+- With **the decoupled peak property learning algorithm**, we enable the ECDFormer to model spectra from discrete perspective, which is suitable for multiple spectra types including IR, ECD, and Mass spectra. 
+
+### 🔥 Well Explanability for spectrum peaks
+- The decoupled peak property learning module facilitates the modeling and visualization of the relative relationships between spectral peaks and molecular functional groups, addressing the issue of interpretability in spectral prediction.
+
+<!-- <img src="git-imgs/main.jpg"/> -->
 
 ## Data Preparation
 For training and inference, please download and put the [descriptor_all_column.npy](https://drive.google.com/file/d/1MHRkm4Jp4SBafwSFXyxsh1H2UdE2cEDc/view?usp=sharing) into the folder utils/
