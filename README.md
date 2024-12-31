@@ -17,8 +17,9 @@
 
 ## 📰 News
 
+* **[2024.12.31]** 🤝 We have released the IR prediction codes.
 * **[2024.12.25]** 🔥 Our ECDFormer has been accepted by Nature Computational Science!
-* **[2023.12.21]** 🤝 We have released the ECD prediction codes for natural product and multi-chiralty molecules
+* **[2024.12.21]** 🤝 We have released the ECD prediction codes for natural product and multi-chiralty molecules.
 
 ## 😮 Highlights
 
@@ -65,7 +66,7 @@ pip install torch-geometric
 
 ## 🗝️ Train and Inference
 
-The training and inferencing instruction for ECD spectra is in [main_func_pos.py](main_func_pos.py). 
+The training and inferencing instruction for **ECD spectra** is in [main_func_pos.py](main_func_pos.py). 
 
 For training the ECDFormer:
 ```bash
@@ -84,7 +85,7 @@ For further experiments, to predict the molecules from natural products or multi
 CUDA_VISIBLE_DEVICES=${0/1/2/3} python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode ${your mode} --visual_epoch ${your ckpt epoch}
 ```
 
-The training and inferencing instruction for IR spectra is in [main_ir.py](main_ir.py). 
+The training and inferencing instruction for **IR** spectra is in [main_ir.py](main_ir.py). 
 
 For training and testing on the IR spectra dataset, set mode to ``Train`` or ``Test``:
 ```bash
