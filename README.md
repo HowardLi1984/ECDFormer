@@ -108,7 +108,7 @@ ECD spectra predictions on natural products with pharmaceutical effects from rec
     <img src="git-imgs/single_drug_img.png" width="800" style="margin-bottom: 0.2;"/>
 <p>
 
-our ECDFormer framework exhibits commendable interpretability due to its attribute prediction for spectral peak disentanglement. To elucidate the process of how ECDFormer generates spectra, we employed the [https://github.com/pytorch/captum](**Integrated Gradients**) to delineate regions within the entire molecule that contribute most significantly to spectrum generation. We observe that chromophores within the molecules generally contribute significantly to the peaks, which is consistent with the chemical principles of ECD spectroscopy.
+our ECDFormer framework exhibits commendable interpretability due to its attribute prediction for spectral peak disentanglement. To elucidate the process of how ECDFormer generates spectra, we employed the [**Integrated Gradients**](https://github.com/pytorch/captum) to delineate regions within the entire molecule that contribute most significantly to spectrum generation. We observe that chromophores within the molecules generally contribute significantly to the peaks, which is consistent with the chemical principles of ECD spectroscopy.
 <p align="center">
     <img src="git-imgs/interpretability_short.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
