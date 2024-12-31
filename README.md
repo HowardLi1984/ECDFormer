@@ -99,16 +99,19 @@ CUDA_VISIBLE_DEVICES=6 python main_ir.py --model_name gnn_ir --batch_size 128 --
 ## 🚀 Experimental Results
 **Quantitively**, we propose the experimental results on our ECDFormer framework and the corresponding baselines including machine learning models and deep learning models. Focusing on peak property prediction, our ECDFormer model surpasses baselines under all evaluation metrics.
 <p align="center">
-    <img src="git-imgs/exp_table.png" width="800" style="margin-bottom: 0.2;"/>
+    <img src="git-imgs/exp_table.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
 
 ## 🚀 Generalization and Interpretation
 ECD spectra predictions on natural products with pharmaceutical effects from recent journals demonstrate the effectiveness and generalization ability of our ECDFormer.
 <p align="center">
-    <img src="git-imgs/single_drug_img.png" width="800" style="margin-bottom: 0.2;"/>
+    <img src="git-imgs/single_drug_img.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
-
-our ECDFormer framework exhibits commendable interpretability due to its attribute prediction for spectral peak disentanglement. To elucidate the process of how ECDFormer generates spectra, we employed the [**Integrated Gradients**](https://github.com/pytorch/captum) to delineate regions within the entire molecule that contribute most significantly to spectrum generation. We observe that chromophores within the molecules generally contribute significantly to the peaks, which is consistent with the chemical principles of ECD spectroscopy.
+The ECDFormer framework has excellent generalizationability on the tandem mass spectra prediction and infrared spectra prediction tasks.
+<p align="center">
+    <img src="git-imgs/IR_Mass_visualization.png" width="600" style="margin-bottom: 0.2;"/>
+<p>
+ECDFormer exhibits commendable interpretability due to its attribute prediction for spectral peak disentanglement. To elucidate the process of how ECDFormer generates spectra, we employed the [**Integrated Gradients**](https://github.com/pytorch/captum) to delineate regions within the entire molecule that contribute most significantly to spectrum generation. We observe that chromophores within the molecules generally contribute significantly to the peaks, which is consistent with the chemical principles of ECD spectroscopy. In the computational results, by examining the characteristic peaks of the ECD spectra for these molecules, we discovered a correlation with specific electronic transitions within the molecules. 
 <p align="center">
     <img src="git-imgs/interpretability_short.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
