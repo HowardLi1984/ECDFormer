@@ -18,13 +18,13 @@
 ## 📰 News
 
 * **[2024.12.25]** 🔥 Our ECDFormer has been accepted by Nature Computational Science!
-* **[2023.12.21]** 🤝 We have released the ECD spectra prediction codes for natural product and multi-chiralty-center molecules
+* **[2023.12.21]** 🤝 We have released the ECD prediction codes for natural product and multi-chiralty molecules
 
 ## 😮 Highlights
 
 ECDFormer exhibits rearkable spectra modeling capability for molecule structure and IR, ECD, Mass spectra.
 
-### 💡 High performance and Well Generalization for multiple spectra modeling and prediction
+### 💡 Well performance and Generalization for spectra modeling and prediction
 - With **the decoupled peak property learning algorithm**, we enable the ECDFormer to model spectra from discrete perspective, which is suitable for multiple spectra types including IR, ECD, and Mass spectra. 
 
 ### 🔥 Well Explanability for spectrum peaks
