@@ -22,7 +22,7 @@ def Construct_dataset(args, dataset, data_index):
     graph_bond_angle = []
 
     # column_descriptor = np.load('utils/column_descriptor.npy', allow_pickle=True) # (25, 1826)
-    all_descriptor = np.load('utils/descriptor_all_column.npy')                   # (25847, 1826)
+    all_descriptor = np.load(args.dataset_root + 'utils/descriptor_all_column.npy') # (25847, 1826)
 
     for i in tqdm(range(len(dataset))):
         data = dataset[i]

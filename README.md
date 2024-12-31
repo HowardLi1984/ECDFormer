@@ -47,7 +47,7 @@ pip install torch-geometric
 
 ## 🗝️ Train and Inference
 
-The training and inferencing instruction is in [main_func_pos.py](main_func_pos.py). 
+The training and inferencing instruction for ECD spectra is in [main_func_pos.py](main_func_pos.py). 
 
 For training the ECDFormer:
 ```bash
@@ -55,7 +55,15 @@ CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch
 ```
 For inference using the model's 400 epoch checkpoint:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Real --visual_epoch 400
+CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Test --visual_epoch 400
+```
+To visualize the excellent spectra predictions or generate Atom-Attention-Weight for molecules:
+```bash
+CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Visual --visual_epoch 500
+```
+For further experiments, to predict the molecules from natural products or multi-chiralty-centric molecules, set the mode to be ``Real'' or ``multi_carbon'':
+```bash
+CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode ${your mode} --visual_epoch ${your ckpt epoch}
 ```
 
 ## 🚀 Main Results
