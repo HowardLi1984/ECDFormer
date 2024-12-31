@@ -3,7 +3,8 @@
     <img src="git-imgs/motivation_method.png" width="700" style="margin-bottom: 0.2;"/>
 <p>
 <h2 align="center"> <a href="">Decoupled peak property learning for efficient and interpretable ECD spectra prediction</a></h2>
-<h5 align="center"> The official code for "Decoupled peak property learning for efficient and interpretable ECD spectra prediction" submitted to Nature Computational Science. Here we publish the inference code of ECDFormer. The training code & ECD spectra dataset will be released after our paper is accepted. If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
+<h4 align="center"> <a href="">Accepted by Nature Computational Science 2025</a></h4>
+<h5 align="center"> The official code for "Decoupled peak property learning for efficient and interpretable ECD spectra prediction" accepted by Nature Computational Science. Here we publish the inference code of ECDFormer. The training code & ECD spectra dataset will be released after our paper is accepted. If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
 
 <h5 align="center">
@@ -61,7 +62,7 @@ To visualize the excellent spectra predictions or generate Atom-Attention-Weight
 ```bash
 CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode Visual --visual_epoch 500
 ```
-For further experiments, to predict the molecules from natural products or multi-chiralty-centric molecules, set the mode to be ``Real'' or ``multi_carbon'':
+For further experiments, to predict the molecules from natural products or multi-chiralty-centric molecules, set the mode to be ``Real`` or ``multi_carbon``:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python main_func_pos.py --model_name gnn_allthree --batch_size 256 --emb_dim 128 --epochs 1000 --lr 1e-3 --mode ${your mode} --visual_epoch ${your ckpt epoch}
 ```
