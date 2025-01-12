@@ -108,7 +108,7 @@ ECD spectra predictions on natural products with pharmaceutical effects from rec
 <p align="center">
     <img src="git-imgs/single_drug_img.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
-The ECDFormer framework has excellent generalizationability on the tandem mass spectra prediction and infrared spectra prediction tasks.
+The ECDFormer framework has excellent generalization ability on the tandem mass spectra prediction and infrared spectra prediction tasks.
 <p align="center">
     <img src="git-imgs/IR_Mass_visualization.png" width="600" style="margin-bottom: 0.2;"/>
 <p>
