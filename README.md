@@ -122,10 +122,13 @@ ECDFormer exhibits commendable interpretability due to its attribute prediction 
 <details open><summary>💡 If you find our paper, code, and dataset useful in your research, please consider giving a star ✨. </summary><p>
 
 ```BibTeX
-@article{li2024decoupled,
-  title={Decoupled peak property learning for efficient and interpretable ECD spectra prediction},
+@article{li2025decoupled,
+  title={Decoupled peak property learning for efficient and interpretable electronic circular dichroism spectrum prediction},
   author={Li, Hao and Long, Da and Yuan, Li and Wang, Yu and Tian, Yonghong and Wang, Xinchang and Mo, Fanyang},
-  year={2024}
+  journal={Nature Computational Science},
+  pages={1--11},
+  year={2025},
+  publisher={Nature Publishing Group US New York}
 }
 ```
 </p></details>
