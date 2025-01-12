@@ -133,11 +133,11 @@ ECDFormer exhibits commendable interpretability due to its attribute prediction 
 <details open><summary>💡 I also have other AI4S projects that may interest you ✨. </summary><p>
     
 > [**ProLLaMA: A Protein Language Model for Multi-Task Protein Language Processing**](https://arxiv.org/abs/2402.16445) <br>
-> Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, Yonghong Tian <br>
+> Liuzhenghao Lv*, Zongying Lin*, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, Yonghong Tian <br>
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/PKU-YuanGroup/ProLLaMA)   [![arXiv](https://img.shields.io/badge/Arxiv-2401.15947-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2402.16445) <be>
 
 > [**Navigating Chemical-Linguistic Sharing Space with Heterogeneous Molecular Encoding**](https://arxiv.org/abs/2412.20888) <br>
-> Liuzhenghao Lv, Hao Li, Yu Wang, Zhiyuan Yan, Zijun Chen, Zongying Lin, Li Yuan, Yonghong Tian <br>
+> Liuzhenghao Lv*, Hao Li*, Yu Wang, Zhiyuan Yan, Zijun Chen, Zongying Lin, Li Yuan, Yonghong Tian <br>
 [![arXiv](https://img.shields.io/badge/Arxiv-2401.15947-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.20888) <be>
 
 </p></details>
