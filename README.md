@@ -17,6 +17,7 @@
 
 ## 📰 News
 
+* **[2025.1.12]** 🤝 We have released the ECD and IR spectra data at https://huggingface.co/datasets/OzymandisLi/ECDFormer_Datasets.
 * **[2024.12.31]** 🤝 We have released the IR prediction codes.
 * **[2024.12.25]** 🔥 Our ECDFormer has been accepted by Nature Computational Science!
 * **[2024.12.21]** 🤝 We have released the ECD prediction codes for natural product and multi-chiralty molecules.
@@ -34,17 +35,17 @@ ECDFormer exhibits rearkable spectra modeling capability for molecule structure 
 <!-- <img src="git-imgs/main.jpg"/> -->
 
 ## 🛠️ Data Preparation
-For training and inference, please download and put the [descriptor_all_column.npy](https://drive.google.com/file/d/1MHRkm4Jp4SBafwSFXyxsh1H2UdE2cEDc/view?usp=sharing) into the folder utils/
+For training and inference, please download the [IR&ECD spectra](https://huggingface.co/datasets/OzymandisLi/ECDFormer_Datasets) and put them into the folder datasets/
+please download and put the [descriptor_all_column.npy](https://drive.google.com/file/d/1MHRkm4Jp4SBafwSFXyxsh1H2UdE2cEDc/view?usp=sharing) into the folder utils/
 ```bash
 utils/descriptor_all_column.npy
 ```
-We will release the CMCDS dataset for training procedure once our paper is accepted.
 
 ## 🛠️ Requirements and Installation
 * Python == 3.8
 * Pytorch == 1.13.1
 * CUDA Version == 11.7
-* torch_geometric, troch-scatter, torch-sparse, torch-cluster, torch-spline-conv
+* torch_geometric, torch-scatter, torch-sparse, torch-cluster, torch-spline-conv
 * Install required packages:
 ```bash
 git clone git@github.com:HowardLi1984/ECDFormer.git
