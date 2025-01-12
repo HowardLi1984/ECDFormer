@@ -4,7 +4,7 @@
 <p>
 <h2 align="center"> <a href="">Decoupled peak property learning for efficient and interpretable ECD spectra prediction</a></h2>
 <h4 align="center"> <a href="">Accepted by Nature Computational Science 2025</a></h4>
-<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
 
 
 <h5 align="center">
@@ -128,3 +128,10 @@ If you find our paper, code, and dataset useful in your research, please conside
   year={2024}
 }
 ```
+<details open><summary>💡 I also have other video-language projects that may interest you ✨. </summary><p>
+    
+> [**ProLLaMA: A Protein Language Model for Multi-Task Protein Language Processing**](https://arxiv.org/abs/2402.16445) <br>
+> Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, Yonghong Tian <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/PKU-YuanGroup/ProLLaMA)   [![arXiv](https://img.shields.io/badge/Arxiv-2401.15947-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2402.16445) <be>
+
+</p></details>
